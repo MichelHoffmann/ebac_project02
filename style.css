@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  width: 100%;
+  height: 100vh;
+  background-color: #a8a8a8;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+main form {
+  width: 300px;
+  height: 150px;
+  background-color: aliceblue;
+  border: 2px solid rgb(0, 136, 255);
+  border-radius: 10px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+  margin-bottom: 30px;
+}
+
+main form input,
+main form button {
+  width: 200px;
+  height: 25px;
+}
+
+main form input {
+  padding-left: 5px;
+}
+
+main form button {
+  background-color: aquamarine;
+  border: 1px solid rgb(23, 141, 102);
+  font-weight: bold;
+}
+
+main table {
+  border-block: 2px solid rgb(140 140 140);
+  padding: 5px;
+}
+
+main table td {
+  border-top: 1px solid rgb(19, 19, 19);
+  padding: 5px;
+}
